@@ -8,7 +8,7 @@ export default [
         <iframe class="youtube" src="https://www.youtube.com/embed/S1PfRNdd420" frameborder="0" allowfullscreen></iframe>
     </div>
 
-            </div>
+          </div>
             <div class="paragraph center">
               <a href="https://play.google.com/store/apps/details?id=me.genopets.mobile&hl=en&gl=US" target="_blank"><img src="img/projects/play-store-logo.png" alt="MS Store button" /></a>
           </div>
@@ -70,7 +70,7 @@ interact with each others unique creations.
           <li>Explore worlds and modify spaces of other members.</li>
           </ul>
       </div>
-            </div>`),
+            </div>`,"#ff00d4"),
   new ProjectData("project-4", "Nail Salon", "img/projects/nail-salon.jpg", `
     <div class="paragraph">
     <strong>Soulside Wonderland</strong> is a superhit hypercasual game made in collaboration with Lion studios. Provides an exhilarating experience in polishing
@@ -92,7 +92,7 @@ interact with each others unique creations.
         <li>Unlimited range of colors and options for unique nails look.</li>
         </ul>
     </div>
-          </div>`),
+          </div>`,"#0c00ff"),
 
   new ProjectData("project-5", "Novi", "img/projects/project-9-icon.png", `
     <div class="paragraph">
@@ -101,8 +101,7 @@ interact with each others unique creations.
       <div class="paragraph center">
       <iframe class="youtube" src="https://www.youtube.com/embed/PQuNJ1Mha8I" frameborder="0" allowfullscreen></iframe>
     </div>
-
-          <div class="paragraph center">
+        <div class="paragraph center">
             <a href="https://play.google.com/store/apps/details?id=com.tintash.novi" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge"/></a>
         </div>
 
@@ -115,5 +114,5 @@ interact with each others unique creations.
         <li>Visually stunning patterns and relaxing background music.</li>
         </ul>
     </div>
-          </div>`),
+    </div>`,"#00830d"),
 ];
