@@ -4,7 +4,7 @@
       <router-link to="/">About me</router-link>
       <router-link to="/game-projects">Roblox</router-link>
       <router-link to="/other-projects">Unity</router-link>
-      <!-- <router-link to="/resume">Resume</router-link> -->
+      <router-link to="/resume">Resume</router-link> 
       <router-link to="/contact">Contact</router-link>
     </div>
   </div>
