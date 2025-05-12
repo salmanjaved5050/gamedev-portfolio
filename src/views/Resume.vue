@@ -61,22 +61,21 @@
       </h3>
       <h4>October 2020 - October 2022</h4>
       <div>
-        <li>Worked on NFT based projects and developed NFT minting features, procedural NFT generation and
-          multiplayer mechanics.</li>
-        <li> Setup rendering pipeline on cloud machine instances to generate marketplace video, gif and png of NFT's
+        <li>Worked on NFT based projects and developed NFT minting features, procedural NFT generation on Genopets.</li>
+        <li> Setup rendering pipeline on cloud machine instances to generate marketplace videos, gifs and pngs of NFTs
           through Unity CLI on each mint.</li>
-        <li> Laid down multiplayer architecture using <strong>Photon/Mirror Networking SDK's</strong>.</li>
-        <li> Development of educational 2D games in Unity game engine.</li>
+        <li> Laid down multiplayer architecture using <strong>Photon/Mirror Networking SDK</strong>.</li>
+        <li> Core features of educational 2D game Gamerize Dictionary.</li>
       </div>
 
       <h3>Gameplay Programmer - Gamefam (Part Time)
       </h3>
       <h4>September 2019 - July 2022</h4>
       <div>
-        <li> Developed roleplay, shooting and AI features for multiple titles.</li>
+        <li> Developed platforming, shooting and racing features for titles like Polybattle, Sonic and easy obby.</li>
         <li> Implemented seamless multiplayer experience and lobbies for obbies, racing simulators and fps shooters.
         </li>
-        <li> Designed and created interfaces along with storage and backend logic.</li>
+        <li> Designed and created interfaces along with backend logic.</li>
         <li> Implemented game passes, economy system and overall game progression mechanics.</li>
       </div>
 
@@ -90,7 +89,7 @@
         <li> Setup CI/CD pipelines for projects which lead to the application being pushed to production fast and
           improved overall workflow.</li>
         <li> Collaborated with designers and product owners for rolling out game mechanics and features while working
-          on hyper-casual prototypes.</li>
+          on hyper-casual prototypes like Nail Salon & Novi.</li>
       </div>
 
       <h2>Skills</h2>
@@ -109,7 +108,7 @@
         <div class="skill" style="border:solid">Blender</div>
       </div>
 
-        <div class="skill-set">
+      <div class="skill-set">
         <h3>Tools & Frameworks</h3>
         <div class="skill" style="border:solid">Git</div>
         <div class="skill" style="border:solid">Jira/Trello</div>
