@@ -94,7 +94,7 @@ interact with each others unique creations.
     </div>
           </div>`,"#0c00ff"),
 
-  new ProjectData("project-5", "Novi", "img/projects/project-9-icon.png", `
+  new ProjectData("project-5", "Novi", "img/projects/novi.png", `
     <div class="paragraph">
     <strong>Novi</strong> is a puzzle game involving visual intelligence and tile matching mechanics with a huge number of intricate levels.
 
