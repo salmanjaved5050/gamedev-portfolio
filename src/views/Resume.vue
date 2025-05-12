@@ -43,7 +43,7 @@
         <li> Developed core game mechanics for Littlest Pet Shop game.</li>
         <li> Implemented user interfaces using Fusion as a front-end framework.</li>
         <li> Worked on player achievements and daily rewards. </li>
-        <li> Developed pet shop and pet hatching experience along with customization</li>
+        <li> Developed pet shop and pet hatching experience along with customization.</li>
         <li> Used Knit framework for client and server communication using services and controllers.</li>
       </div>
 
@@ -62,7 +62,7 @@
       <h4>October 2020 - October 2022</h4>
       <div>
         <li>Worked on NFT based projects and developed NFT minting features, procedural NFT generation on Genopets.</li>
-        <li> Setup rendering pipeline on cloud machine instances to generate marketplace videos, gifs and pngs of NFTs
+        <li> Set up rendering pipeline on cloud machine instances to generate marketplace videos, gifs and pngs of NFTs
           through Unity CLI on each mint.</li>
         <li> Laid down multiplayer architecture using <strong>Photon/Mirror Networking SDK</strong>.</li>
         <li> Core features of educational 2D game Gamerize Dictionary.</li>
@@ -86,7 +86,7 @@
         <li>Worked on hyper-casual projects and
           implemented core architecture, gameplay mechanics, AI, Character
           Controllers and Level Editor Utilities in <strong>Unity3d</strong> game engine.</li>
-        <li> Setup CI/CD pipelines for projects which lead to the application being pushed to production fast and
+        <li> Set up CI/CD pipelines for projects which lead fast production and
           improved overall workflow.</li>
         <li> Collaborated with designers and product owners for rolling out game mechanics and features while working
           on hyper-casual prototypes like Nail Salon & Novi.</li>
