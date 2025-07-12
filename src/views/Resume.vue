@@ -27,7 +27,7 @@
 
       <h3>Senior Gameplay Programmer - Super League
       </h3>
-      <h4>April 2024 - Present</h4>
+      <h4>April 2024 - May 2025</h4>
       <div>
         <li> Developed mini games on Google Be Internet Awesome.</li>
         <li> Implemented front-end and progression system.</li>
