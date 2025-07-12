@@ -17,7 +17,7 @@
       <br /> reading horror novels and hiking.
     </div>
     <div class="photo">
-      <img src="img/resume-photo.jpg" alt="Photo of Salman" style="width:100%; height:100%" />
+      <img src="img/resume-photo.png" alt="Photo of Salman" style="width:100%; height:100%" />
     </div>
 
     <div style="clear:both"></div>
