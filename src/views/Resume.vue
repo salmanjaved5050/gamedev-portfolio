@@ -12,9 +12,7 @@
       My work primarily focused on delivering high-quality gameplay experiences while working at multiple game studios.
 
       <br />
-      <br /> Currently I'm working as a senior gameplay programmer at <strong>Super League</strong>. Besides
-      development, I'm passionate about games (obviously) and love exploring locations,
-      <br /> reading horror novels and hiking.
+      <br /> Besides development, I'm passionate about games (obviously) and love exploring locations, reading horror novels and hiking.
     </div>
     <div class="photo">
       <img src="img/resume-photo.png" alt="Photo of Salman" style="width:100%; height:100%" />
