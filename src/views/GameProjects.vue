@@ -2,9 +2,9 @@
   <div>
     <h1>Roblox Projects</h1>
 
-    <div style="margin-bottom: 30px;">
+    <p class="page-intro">
       Following are the major projects I heavily contributed to while working for various clients and studios like Gamefam, Suit Up Games, Super League and Dubit.
-    </div>
+    </p>
 
     <ProjectsList v-bind:projects="projects" />
 

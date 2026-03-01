@@ -16,8 +16,7 @@
       </template>
     </div>
 
-    <ProjectDetailsOverlay v-on:close="showPopup = false" :visible="showPopup" :title="popupTitle"
-      :htmlContent="popupContent" :color="popupColor" />
+    <ProjectDetailsOverlay v-on:close="closePopup" :visible="showPopup" :project="selectedProject" />
   </div>
 </template>
 
@@ -37,21 +36,17 @@ export default Vue.extend({
   data: function () {
     return {
       showPopup: false,
-      popupTitle: "",
-      popupColor: "",
-      popupContent: ""
+      selectedProject: null as ProjectData | null,
     };
   },
   methods: {
     showDetails: function (item: ProjectData) {
-      // if (event) {
-      //   alert(event.target);
-      // }
-      this.popupTitle = item.name;
-      this.popupColor = item.accentColor;
-      this.popupContent = item.htmlDescription;
+      this.selectedProject = item;
       this.showPopup = true;
       window.scrollTo(0, 0);
+    },
+    closePopup: function () {
+      this.showPopup = false;
     },
   },
 });
@@ -65,6 +60,14 @@ export default Vue.extend({
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(124, 111, 255, 0.2);
 }
 
 .project-item-image {
@@ -72,17 +75,11 @@ export default Vue.extend({
   background-position: center;
   height: 100%;
   width: 100%;
-  transition: all 0.2s;
+  transition: transform 0.4s ease;
 }
 
-.project-item-image:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.project-item:hover {
-  filter: brightness(120%);
+.project-item:hover .project-item-image {
+  transform: scale(1.08);
 }
 
 .title-bar {
@@ -90,10 +87,15 @@ export default Vue.extend({
   bottom: 0px;
   width: 100%;
   background-color: #222222;
+  backdrop-filter: blur(8px);
+  border-radius: 0 0 12px 12px;
 }
 
 .title-text {
-  padding: 10px;
+  padding: 10px 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.95em;
 }
 
 @media only screen and (min-width: 620px) {

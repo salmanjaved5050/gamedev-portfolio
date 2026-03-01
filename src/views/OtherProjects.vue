@@ -2,9 +2,9 @@
   <div>
     <h1>Unity3d Projects</h1>
 
-    <div style="margin-bottom: 30px;">
-      Below are some of the highlihted projects I've developed on Unity3d, each with its own unique challenge.
-    </div>
+    <p class="page-intro">
+      Below are some of the highlighted projects I've developed on Unity3d, each with its own unique challenge.
+    </p>
     <ProjectsList v-bind:projects="projects" />
   </div>
 </template>
