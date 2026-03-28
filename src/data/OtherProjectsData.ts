@@ -18,8 +18,8 @@ export default [
       "Get unique habitats for your pets that yield resources."
     ],
     contributions: [
-      "Developed NFT minting feature, procedural NFT generation and in-game Pet Studio.",
-      "Set up rendering pipeline on cloud machine instances to generate marketplace videos, GIFs and PNGs of NFTs through Unity CLI on each mint."
+      "Developed NFT minting feature, in-game Pet Studio, and a procedural generation system for unique player islands that evolved through progression and upgrades.",
+      "Built a cloud-based rendering pipeline to automatically generate marketplace videos, GIFs, and PNGs for NFTs at the time of minting."
     ]
   }),
   new ProjectData({

@@ -25,13 +25,11 @@
 
       <div class="work-entry">
         <h3>Senior Gameplay Programmer - Super League</h3>
-        <h4>April 2024 - May 2025</h4>
+        <h4>May 2024 - May 2025</h4>
         <ul>
-          <li>Developed mini games on Google Be Internet Awesome.</li>
-          <li>Implemented front-end and progression system.</li>
-          <li>Designed and implemented player lobbies.</li>
-          <li>Developed building system and challenges for Avid Creator Planet.</li>
-          <li>Worked on player endorsements, shop, first time user experiences and player back-end.</li>
+          <li>Engineered mini-games, progression systems, player lobbies, and a front-end/back-end communication pipeline for Google Be Internet Awesome.</li>
+          <li>Built building systems, challenge features, player endorsements, shop customization, and the FTUE flow for Avid Creator Planet.</li>
+          <li>Implemented core golf mechanics, quests, UGC systems, and leaderboards for the USGA Popup Experience.</li>
         </ul>
       </div>
 
@@ -39,11 +37,9 @@
         <h3>Senior Gameplay Programmer - Suit Up Games</h3>
         <h4>March 2023 - November 2023</h4>
         <ul>
-          <li>Developed core game mechanics for Littlest Pet Shop game.</li>
-          <li>Implemented user interfaces using Fusion as a front-end framework.</li>
-          <li>Worked on player achievements and daily rewards.</li>
-          <li>Developed pet shop and pet hatching experience along with customization.</li>
-          <li>Used Knit framework for client and server communication using services and controllers.</li>
+          <li>Developed the pet shop, pet hatching, and pet customization systems for Littlest Pet Shop.</li>
+          <li>Established a fast-travel feature and a pipeline for smooth pet integration within the game.</li>
+          <li>Implemented player achievements, daily rewards, and front-end interfaces using the Fusion framework.</li>
         </ul>
       </div>
 
@@ -51,22 +47,9 @@
         <h3>Gameplay Programmer - Dubit</h3>
         <h4>October 2022 - February 2023</h4>
         <ul>
-          <li>Worked on metaverse projects related to fashion industry and K-Pop band NCT-127 and Nickverse.</li>
-          <li>Designed and implemented interfaces using roact as front-end framework.</li>
-          <li>Worked on in-game economy and obby systems.</li>
-          <li>Implemented in-game shop and accessories customization system for enhanced player experience.</li>
-        </ul>
-      </div>
-
-      <div class="work-entry">
-        <h3>Gameplay Programmer - Tintash</h3>
-        <h4>October 2020 - October 2022</h4>
-        <ul>
-          <li>Worked on NFT based projects and developed NFT minting features, procedural NFT generation on Genopets.</li>
-          <li>Set up rendering pipeline on cloud machine instances to generate marketplace videos, gifs and pngs of NFTs
-            through Unity CLI on each mint.</li>
-          <li>Laid down multiplayer architecture using <strong>Photon/Mirror Networking SDK</strong>.</li>
-          <li>Core features of educational 2D game Gamerize Dictionary.</li>
+          <li>Contributed to gameplay systems for the NCT-127 branded Roblox experience.</li>
+          <li>Developed in-game economy, shop, accessory customization, and obby gameplay features.</li>
+          <li>Implemented front-end interfaces using the Roact framework.</li>
         </ul>
       </div>
 
@@ -74,24 +57,25 @@
         <h3>Gameplay Programmer - Gamefam (Part Time)</h3>
         <h4>September 2019 - July 2022</h4>
         <ul>
-          <li>Developed platforming, shooting and racing features for titles like Polybattle, Sonic and easy obby.</li>
-          <li>Implemented seamless multiplayer experience and lobbies for obbies, racing simulators and fps shooters.</li>
-          <li>Designed and created interfaces along with backend logic.</li>
-          <li>Implemented game passes, economy system and overall game progression mechanics.</li>
+          <li>Implemented core shooting mechanics, weapon systems, and vehicle mechanics including planes, tanks, and armored vehicles for Polybattle.</li>
+          <li>Added console controls for enhanced cross-platform gameplay on Polybattle.</li>
+          <li>Developed platforming features, game passes, economy system, and overall game progression mechanics for Sonic Speed Simulator.</li>
+          <li>Implemented seamless multiplayer lobbies for racing simulators and FPS shooters.</li>
         </ul>
       </div>
 
       <div class="work-entry">
         <h3>Gameplay Programmer - Tintash</h3>
-        <h4>August 2018 - October 2020</h4>
+        <h4>August 2018 - October 2022</h4>
         <ul>
-          <li>Worked on hyper-casual projects and
-            implemented core architecture, gameplay mechanics, AI, Character
-            Controllers and Level Editor Utilities in <strong>Unity3d</strong> game engine.</li>
-          <li>Set up CI/CD pipelines for projects which lead fast production and
-            improved overall workflow.</li>
-          <li>Collaborated with designers and product owners for rolling out game mechanics and features while working
-            on hyper-casual prototypes like Nail Salon &amp; Novi.</li>
+          <li>Contributed to hyper-casual games, prototypes, and educational titles including Gamerize Dictionary, Nail Salon, Novi, and Genopets — a move-to-earn NFT-based game.</li>
+          <li>Worked on hyper-casual projects, implementing core architecture, gameplay mechanics, user interfaces, character controllers, and level editor tools.</li>
+          <li>Set up CI/CD pipelines that improved development workflow and enabled faster production and delivery.</li>
+          <li>Designed and implemented multiplayer architecture, netcode, and gameplay synchronization for multiplayer experiences.</li>
+          <li>Built a procedural generation system for unique player islands that evolved over time through progression and upgrades in Genopets.</li>
+          <li>Developed a cloud-based rendering pipeline to automatically generate marketplace videos, GIFs, and PNGs for NFTs at the time of minting.</li>
+          <li>Performed game profiling and optimization to improve overall performance and graphics efficiency.</li>
+          <li>Integrated third-party libraries and backend services to support gameplay features.</li>
         </ul>
       </div>
 
