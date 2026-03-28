@@ -18,7 +18,7 @@ export default [
       "Get unique habitats for your pets that yield resources."
     ],
     contributions: [
-      "Worked on NFT based projects and developed NFT minting features, procedural NFT generation.",
+      "Developed NFT minting feature, procedural NFT generation and in-game Pet Studio.",
       "Set up rendering pipeline on cloud machine instances to generate marketplace videos, GIFs and PNGs of NFTs through Unity CLI on each mint."
     ]
   }),
@@ -38,8 +38,8 @@ export default [
       "Customize heroes and kingdom by unlocking upgrades and finding rare items."
     ],
     contributions: [
-      "Developed core features of educational 2D game Gamerize Dictionary.",
-      "Implemented graded learning systems with images, translations and audio."
+      "Developed player progression systems, battle mechanics and front-end interfaces.",
+      "Implemented kingdom mechanics and graded learning systems with images, translations and audio."
     ]
   }),
   new ProjectData({
@@ -58,7 +58,8 @@ export default [
       "Explore worlds and modify spaces of other members."
     ],
     contributions: [
-      "Laid down multiplayer architecture using Photon/Mirror Networking SDK."
+      "Implemented core functionality of sharing 3d spaces, adding friends, space gallery and gltf importing.",
+      "Laid down multiplayer architecture using Photon SDK."
     ]
   }),
   new ProjectData({
@@ -77,8 +78,8 @@ export default [
       "Unlimited range of colors and options for unique nails look."
     ],
     contributions: [
-      "Implemented core architecture, gameplay mechanics, AI and Character Controllers.",
-      "Collaborated with designers and product owners for rolling out game mechanics and features."
+      "Implemented salon customization and nail polishing mechanics.",
+      "Developed VIP client system and special services feature."
     ]
   }),
   new ProjectData({
@@ -97,8 +98,8 @@ export default [
       "Visually stunning patterns and relaxing background music."
     ],
     contributions: [
-      "Implemented core architecture, gameplay mechanics and Level Editor Utilities.",
-      "Set up CI/CD pipelines for projects which led to fast production and improved overall workflow."
+      "Developed Level Editor for creating and managing puzzle levels.",
+      "Implemented player progression tracking and leaderboard."
     ]
   }),
 ];

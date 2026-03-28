@@ -18,9 +18,7 @@ export default [
             "Internet awareness and learn how to be safe online."
         ],
         contributions: [
-            "Developed mini-games on Google Be Internet Awesome.",
-            "Implemented front-end and progression system.",
-            "Designed and implemented player lobbies."
+            "Built mini-games, progression systems, player lobbies, and front-end/back-end communication pipeline."
         ],
         screenshots: [
             { url: "img/projects/google-1.png", alt: "Google Be Internet Awesome Screenshot" },
@@ -44,11 +42,9 @@ export default [
             "Exclusive pets with stylish tricks and perfect companions."
         ],
         contributions: [
-            "Developed core game mechanics for Littlest Pet Shop.",
-            "Implemented user interfaces using Fusion as a front-end framework.",
-            "Worked on player achievements and daily rewards.",
-            "Developed pet shop and pet hatching experience along with customization.",
-            "Used Knit framework for client and server communication using services and controllers."
+            "Developed pet shop, pet hatching, and pet customization systems.",
+            "Implemented a fast-travel feature and established a pipeline for smooth pet integration within the game.",
+            "Worked on player achievements, daily rewards, and front-end interfaces using the Fusion framework."
         ],
         screenshots: [
             { url: "img/projects/lps-1.png", alt: "Littlest Pet Shop Screenshot" },
@@ -72,8 +68,7 @@ export default [
             "Endorsements that promote collaboration among players leading to creative learning sessions."
         ],
         contributions: [
-            "Developed building system and challenges for Avid Creator Planet.",
-            "Worked on player endorsements, shop, first time user experiences and player back-end."
+            "Developed block building systems, challenges feature, player endorsements, shop customization, and FTUE flow."
         ],
         screenshots: [
             { url: "img/projects/avid-1.png", alt: "Avid Creator Planet Screenshot" },
@@ -95,7 +90,10 @@ export default [
             "Premium store filled with UGC and game passes.",
             "Olympic history, theatre and epic moments."
         ],
-        contributions: [],
+        contributions: [
+            "Created endless runner style obby and discus throwing minigames.",
+            "Implemented in-game store, achievements and minimap logic."
+        ],
         screenshots: [
             { url: "img/projects/olympicworld-2.png", alt: "Olympic World Screenshot" },
             { url: "img/projects/olympicworld-3.png", alt: "Olympic World Screenshot" }
@@ -117,9 +115,8 @@ export default [
             "NCT 127 band member that offer you unique photocards."
         ],
         contributions: [
-            "Designed and implemented interfaces using Roact as front-end framework.",
-            "Worked on in-game economy and obby systems.",
-            "Implemented in-game shop and accessories customization system for enhanced player experience."
+            "Developed systems for the in-game economy, shop, accessory customization, and obby gameplay features.",
+            "Implemented front-end interfaces using the Roact framework."
         ],
         screenshots: [
             { url: "img/projects/nct-1.png", alt: "NCT 127 World Screenshot" },
@@ -142,10 +139,9 @@ export default [
             "Classes and customization."
         ],
         contributions: [
-            "Developed platforming, shooting and racing features.",
-            "Implemented seamless multiplayer experience and lobbies for FPS shooters.",
-            "Designed and created interfaces along with backend logic.",
-            "Implemented game passes, economy system and overall game progression mechanics."
+            "Implemented core shooting mechanics and set up weapon systems.",
+            "Implemented various vehicles and their unique mechanics such as planes, tanks and armored vehicles.",
+            "Added controls for enhanced gameplay on consoles."
         ],
         screenshots: [
             { url: "img/projects/polybattle-1.png", alt: "Polybattle Screenshot" },
@@ -168,9 +164,7 @@ export default [
             "Upgrade characters' speed, power and multipliers with skill pieces."
         ],
         contributions: [
-            "Developed platforming and racing features.",
-            "Implemented seamless multiplayer experience and lobbies for racing simulators.",
-            "Implemented game passes, economy system and overall game progression mechanics."
+            "Implemented platforming, game passes, economy system and overall game progression mechanics."
         ],
         screenshots: [
             { url: "img/projects/sonic-1.png", alt: "Sonic Speed Simulator Screenshot" },
