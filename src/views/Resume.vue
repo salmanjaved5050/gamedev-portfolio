@@ -27,10 +27,10 @@
         <h3>Senior Gameplay Programmer - Karta</h3>
         <h4>November 2025 - Present</h4>
         <ul>
-          <li>Developed quest systems, player progression, and core gameplay loop for Southbank Festival.</li>
+          <li>Developed quest systems, player progression, and core gameplay loop for Beat Festival.</li>
           <li>Built the BeatMaker system, allowing players to compose and layer beats in real time during jam sessions.</li>
           <li>Implemented the jam session feature where players collaboratively compose beats and rate each other's creations.</li>
-          <li>Developed the Beat Gallerywhere players can browse, listen to, like, and search beats created by other players.</li>          
+          <li>Developed the Beat Gallery where players can browse, listen to, like, and search beats created by other players.</li>          
           <li>Provided LiveOps support for Planet Hugo and Twice.</li>        
         </ul>
       </div>
