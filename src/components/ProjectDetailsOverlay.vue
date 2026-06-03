@@ -13,6 +13,52 @@
             <iframe class="youtube" :src="project.videoUrl" frameborder="0" allowfullscreen></iframe>
           </div>
 
+          <div v-if="project.screenshots.length && activeScreenshot" class="paragraph gallery-section">
+            <div class="slideshow">
+              <button
+                v-if="hasMultipleScreenshots"
+                class="slideshow-nav previous"
+                type="button"
+                aria-label="Previous screenshot"
+                @click="showPreviousScreenshot"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <img
+                class="slideshow-image"
+                :src="activeScreenshot.url"
+                :alt="activeScreenshot.alt"
+              />
+              <button
+                v-if="hasMultipleScreenshots"
+                class="slideshow-nav next"
+                type="button"
+                aria-label="Next screenshot"
+                @click="showNextScreenshot"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+            <div v-if="hasMultipleScreenshots" class="slideshow-footer">
+              <div class="slideshow-count">
+                {{ currentScreenshotIndex + 1 }} / {{ project.screenshots.length }}
+              </div>
+              <div class="slideshow-thumbnails">
+                <button
+                  v-for="(screenshot, index) in project.screenshots"
+                  :key="'thumb-' + index"
+                  class="slideshow-thumbnail"
+                  :class="{ active: index === currentScreenshotIndex }"
+                  type="button"
+                  :aria-label="'Show screenshot ' + (index + 1)"
+                  @click="selectScreenshot(index)"
+                >
+                  <img :src="screenshot.url" :alt="screenshot.alt" />
+                </button>
+              </div>
+            </div>
+          </div>
+
           <div v-if="project.storeUrl" class="paragraph center">
             <a :href="project.storeUrl" target="_blank" class="store-button">
               <i :class="storeIcon"></i>
@@ -48,7 +94,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import ProjectData from "@/data/ProjectData";
+import ProjectData, { Screenshot } from "@/data/ProjectData";
 
 export default Vue.extend({
   name: "ProjectDetailsOverlay",
@@ -61,12 +107,29 @@ export default Vue.extend({
       })
     },
   },
+  data: function () {
+    return {
+      currentScreenshotIndex: 0,
+    };
+  },
   watch: {
     visible(isVisible: boolean) {
       document.body.style.overflow = isVisible ? 'hidden' : '';
+      if (isVisible) {
+        this.currentScreenshotIndex = 0;
+      }
+    },
+    project() {
+      this.currentScreenshotIndex = 0;
     }
   },
   computed: {
+    activeScreenshot(): Screenshot | null {
+      return this.project.screenshots[this.currentScreenshotIndex] || null;
+    },
+    hasMultipleScreenshots(): boolean {
+      return this.project.screenshots.length > 1;
+    },
     storeIcon(): string {
       const url = this.project.storeUrl || '';
       if (url.includes('roblox.com')) return 'fa-solid fa-gamepad';
@@ -74,6 +137,19 @@ export default Vue.extend({
       if (url.includes('apps.apple.com')) return 'fa-brands fa-apple';
       return 'fa-solid fa-store';
     }
+  },
+  methods: {
+    selectScreenshot(index: number) {
+      this.currentScreenshotIndex = index;
+    },
+    showPreviousScreenshot() {
+      const screenshotCount = this.project.screenshots.length;
+      this.currentScreenshotIndex = (this.currentScreenshotIndex + screenshotCount - 1) % screenshotCount;
+    },
+    showNextScreenshot() {
+      const screenshotCount = this.project.screenshots.length;
+      this.currentScreenshotIndex = (this.currentScreenshotIndex + 1) % screenshotCount;
+    },
   },
   beforeDestroy() {
     document.body.style.overflow = '';
@@ -240,6 +316,102 @@ a.dialog-close-button:hover {
 .contributions-section li {
   margin-bottom: 6px;
   line-height: 1.6;
+}
+
+.gallery-section {
+  margin-top: 24px;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.slideshow-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  background: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.slideshow-nav:hover {
+  background: rgba(0, 0, 0, 0.65);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.slideshow-nav.previous {
+  left: 12px;
+}
+
+.slideshow-nav.next {
+  right: 12px;
+}
+
+.slideshow-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.slideshow-count {
+  flex: 0 0 auto;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.slideshow-thumbnails {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.slideshow-thumbnail {
+  flex: 0 0 auto;
+  width: 72px;
+  height: 46px;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.slideshow-thumbnail.active,
+.slideshow-thumbnail:hover {
+  border-color: var(--accent);
+  opacity: 1;
+}
+
+.slideshow-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media only screen and (min-width: 620px) {

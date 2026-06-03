@@ -25,12 +25,14 @@
 
       <div class="work-entry">
         <h3>Senior Gameplay Programmer - Karta</h3>
-        <h4>November 2025 - Present</h4>
+        <h4>November 2025 - May 31st 2026</h4>
         <ul>
-          <li>Developed quest systems, player progression, and core gameplay loop for Beat Festival.</li>
+          <li>Developed the quest system, player progression, and core gameplay loop for Beat Festival.</li>
           <li>Built the BeatMaker system, allowing players to compose and layer beats in real time during jam sessions.</li>
           <li>Implemented the jam session feature where players collaboratively compose beats and rate each other's creations.</li>
           <li>Developed the Beat Gallery where players can browse, listen to, like, and search beats created by other players.</li>          
+          <li>Contributed to Premier League Dribble Dash, developing solo and party based obby runs with fast-paced platforming and goal kick gameplay.</li>
+          <li>Implemented shop boost items, daily and weekly quests, premium UGC items, and daily login rewards for Premier League Dribble Dash.</li>
           <li>Provided LiveOps support for Planet Hugo and Twice.</li>        
         </ul>
       </div>

@@ -2,6 +2,57 @@ import ProjectData from '@/data/ProjectData'
 
 export default [
     new ProjectData({
+        id: "project-9",
+        name: "Dribble Dash",
+        iconUrl: "img/projects/pl-1.png",
+        description: "Dribble Dash is a Premier League Roblox experience built around fast football action, competitive play, and branded social gameplay.",
+        accentColor: "#38003c",
+        storeUrl: "https://www.roblox.com/games/109361054253806/Dribble-Dash",
+        storeLabel: "Play on Roblox",
+        features: [
+            "Solo and party based obby runs that offer fast paced platforming alongside goal kicks.",
+            "Unique shop items that provide boosts within obby runs.",
+            "Daily and weekly quests that offer big rewards and experience.",
+            "Premium UGC items."
+        ],
+        contributions: [
+            "Contributed to solo and party based obby runs, goal kick gameplay, shop boost items, daily and weekly quests, premium UGC items, and daily login rewards."
+        ],
+        screenshots: [
+            { url: "img/projects/pl-1.png", alt: "Dribble Dash Screenshot" },
+            { url: "img/projects/pl-2.png", alt: "Dribble Dash Screenshot" },
+            { url: "img/projects/pl-3.png", alt: "Dribble Dash Screenshot" },
+            { url: "img/projects/pl-4.png", alt: "Dribble Dash Screenshot" }
+        ]
+    }),
+    new ProjectData({
+        id: "project-8",
+        name: "BeatFestival",
+        iconUrl: "img/projects/beat-festival.png",
+        description: "BeatFestival is a Roblox music experience where players create, layer, share, and rate beats through collaborative jam sessions and a community-driven beat gallery.",
+        accentColor: "#ff4f8b",
+        isHigh: true,
+        storeUrl: "https://www.roblox.com/games/131975748086068/Beat-Festival",
+        storeLabel: "Play on Roblox",
+        features: [
+            "BeatMaker tools that let players compose and layer beats in real time.",
+            "Collaborative jam sessions where players create together and rate each other's beats.",
+            "Beat Gallery for browsing, listening to, liking, and searching beats created by other players."
+        ],
+        contributions: [
+            "Developed the quest system, player progression, and the core gameplay loop.",
+            "Built the BeatMaker system for real-time beat composition and layering.",
+            "Implemented collaborative jam sessions and player rating flows.",
+            "Developed the Beat Gallery browsing, listening, liking, and search features."
+        ],
+        screenshots: [
+            { url: "img/projects/beat-festival.png", alt: "BeatFestival Screenshot" },
+            { url: "img/projects/beat-festival-1.png", alt: "BeatFestival Screenshot" },
+            { url: "img/projects/beat-festival-2.png", alt: "BeatFestival Screenshot" },
+            { url: "img/projects/beat-festival-3.png", alt: "BeatFestival Screenshot" }
+        ]
+    }),
+    new ProjectData({
         id: "project-1",
         name: "Google Be Internet Awesome World",
         iconUrl: "img/projects/google.png",
