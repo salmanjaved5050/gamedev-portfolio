@@ -13,10 +13,6 @@
           <p class="sub-intro">
             My expertise spans <strong>Roblox</strong> and <strong>Unity3D</strong>, where I've built games that balance creativity with technical execution. Let's talk games, design and player experiences!
           </p>
-          <div class="hero-cta">
-            <router-link to="/game-projects" class="btn btn-primary">View Projects</router-link>
-            <router-link to="/contact" class="btn btn-outline">Get in Touch</router-link>
-          </div>
         </div>
         <div class="hero-avatar">
           <div class="avatar-frame">
@@ -59,50 +55,6 @@
   color: var(--text-muted);
   line-height: 1.7em;
   margin-bottom: 12px;
-}
-
-.hero-cta {
-  display: flex;
-  gap: 16px;
-  margin-top: 32px;
-  flex-wrap: wrap;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 28px;
-  border-radius: 8px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 0.95em;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  opacity: 1;
-  cursor: pointer;
-}
-
-.btn-primary {
-  background: linear-gradient(135deg, var(--accent), var(--warm));
-  color: white;
-  box-shadow: 0 4px 16px rgba(124, 111, 255, 0.3);
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(124, 111, 255, 0.4);
-  opacity: 1;
-}
-
-.btn-outline {
-  background: transparent;
-  border: 2px solid var(--accent);
-  color: var(--accent);
-}
-.btn-outline:hover {
-  background: var(--accent);
-  color: white;
-  transform: translateY(-2px);
-  opacity: 1;
 }
 
 .hero-avatar {
