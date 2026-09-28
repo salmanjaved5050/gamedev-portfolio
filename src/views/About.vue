@@ -5,7 +5,7 @@
         <div class="hero-text">
           <h1>Hello! <span class="wave">👋</span></h1>
           <p class="intro">
-            I'm <strong>Salman Javed</strong>—a gameplay programmer with 8 years of experience crafting engaging games and interactive experiences.
+            I'm <strong>Salman Javed</strong>, a gameplay programmer with 8 years of experience crafting engaging games and interactive experiences.
           </p>
           <p class="sub-intro">
             As both a developer and an avid gamer, I love dissecting game design, mechanics, and systems. Always eager to brainstorm innovative ideas or discuss what makes games truly compelling.
