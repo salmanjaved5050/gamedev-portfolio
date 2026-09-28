@@ -3,7 +3,7 @@
     <h1>Roblox Projects</h1>
 
     <p class="page-intro">
-      Following are the major projects I heavily contributed to while working for various clients and studios like Gamefam, Suit Up Games, Super League and Dubit.
+      Following are the major projects I heavily contributed to while working for various clients and studios like Karta, Kuzu Gaming, Gamefam, Suit Up Games, Super League and Dubit.
     </p>
 
     <ProjectsList v-bind:projects="projects" />

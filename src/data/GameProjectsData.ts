@@ -2,6 +2,30 @@ import ProjectData from '@/data/ProjectData'
 
 export default [
     new ProjectData({
+        id: "project-10",
+        name: "Anime Apocalypse",
+        iconUrl: "img/projects/aa-2.png",
+        description: "Anime Apocalypse is a fast-paced anime dungeon hack-and-slash zombie game where players fight through waves of enemies using anime-inspired abilities across a variety of unique game modes.",
+        accentColor: "#5b2a86",
+        storeUrl: "https://www.roblox.com/games/140409475718339/Anime-Apocalypse",
+        storeLabel: "Play on Roblox",
+        features: [
+            "Fast-paced hack-and-slash combat with anime-inspired abilities and gadgets.",
+            "Wave-based dungeon runs with objectives, raids and unique game modes.",
+            "Pets, traits and cosmetics to customize and power up your character.",
+            "Seasons, quests, guilds and leaderboards that keep players coming back."
+        ],
+        contributions: [
+            "Optimized game performance across the experience.",
+            "Developed new content including game modes, raids, bundles, pets and cosmetics.",
+            "Tracked down and fixed bugs across gameplay and content."
+        ],
+        screenshots: [
+            { url: "img/projects/aa-1.png", alt: "Anime Apocalypse Screenshot" },
+            { url: "img/projects/aa-2.png", alt: "Anime Apocalypse Screenshot" }
+        ]
+    }),
+    new ProjectData({
         id: "project-9",
         name: "Dribble Dash",
         iconUrl: "img/projects/pl-1.png",
